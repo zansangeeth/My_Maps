@@ -1,4 +1,4 @@
-package com.rkpandey.mymaps
+package com.zasa.mymaps
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4

@@ -1,4 +1,4 @@
-package com.rkpandey.mymaps
+package com.zasa.mymaps
 
 import org.junit.Test
 

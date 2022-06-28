@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.rkpandey.mymaps">
+    package="com.zasa.mymaps">
 
     <!--
          The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
@@ -30,12 +30,12 @@
             android:value="@string/google_maps_key" />
 
         <activity
-            android:name=".CreateMapActivity"
+            android:name="com.zasa.mymaps.CreateMapActivity"
             android:label="@string/title_activity_create_map"></activity>
         <activity
-            android:name=".DisplayMapActivity"
+            android:name="com.zasa.mymaps.DisplayMapActivity"
             android:label="@string/title_activity_display_map" />
-        <activity android:name=".MainActivity">
+        <activity android:name="com.zasa.mymaps.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

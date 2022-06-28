@@ -1,11 +1,10 @@
-package com.rkpandey.mymaps
+package com.zasa.mymaps
 
 import android.app.Activity
 import android.content.DialogInterface
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.util.LayoutDirection
 import android.util.Log
 import android.view.LayoutInflater
 import android.view.Menu
@@ -23,8 +22,8 @@ import com.google.android.gms.maps.model.LatLng
 import com.google.android.gms.maps.model.Marker
 import com.google.android.gms.maps.model.MarkerOptions
 import com.google.android.material.snackbar.Snackbar
-import com.rkpandey.mymaps.models.Place
-import com.rkpandey.mymaps.models.UserMap
+import com.zasa.mymaps.models.Place
+import com.zasa.mymaps.models.UserMap
 
 private const val TAG = "CreateMapActivity"
 class CreateMapActivity : AppCompatActivity(), OnMapReadyCallback {

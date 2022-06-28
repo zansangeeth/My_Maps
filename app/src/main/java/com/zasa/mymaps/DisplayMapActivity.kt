@@ -1,4 +1,4 @@
-package com.rkpandey.mymaps
+package com.zasa.mymaps
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
@@ -11,7 +11,7 @@ import com.google.android.gms.maps.SupportMapFragment
 import com.google.android.gms.maps.model.LatLng
 import com.google.android.gms.maps.model.LatLngBounds
 import com.google.android.gms.maps.model.MarkerOptions
-import com.rkpandey.mymaps.models.UserMap
+import com.zasa.mymaps.models.UserMap
 
 private const val TAG = "DisplayMapActivity"
 class DisplayMapActivity : AppCompatActivity(), OnMapReadyCallback {

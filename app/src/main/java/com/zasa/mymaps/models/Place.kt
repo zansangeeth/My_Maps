@@ -1,4 +1,4 @@
-package com.rkpandey.mymaps.models
+package com.zasa.mymaps.models
 
 import java.io.Serializable
 

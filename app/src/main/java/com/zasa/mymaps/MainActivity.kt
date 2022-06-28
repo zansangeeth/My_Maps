@@ -1,4 +1,4 @@
-package com.rkpandey.mymaps
+package com.zasa.mymaps
 
 import android.app.Activity
 import android.content.Context
@@ -12,9 +12,8 @@ import android.widget.Toast
 import androidx.appcompat.app.AlertDialog
 import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.LinearLayoutManager
-import com.google.android.gms.maps.model.LatLng
-import com.rkpandey.mymaps.models.Place
-import com.rkpandey.mymaps.models.UserMap
+import com.zasa.mymaps.models.Place
+import com.zasa.mymaps.models.UserMap
 import kotlinx.android.synthetic.main.activity_main.*
 import java.io.*
 

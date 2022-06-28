@@ -1,4 +1,4 @@
-package com.rkpandey.mymaps
+package com.zasa.mymaps
 
 import android.content.Context
 import android.util.Log
@@ -7,7 +7,7 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
-import com.rkpandey.mymaps.models.UserMap
+import com.zasa.mymaps.models.UserMap
 
 private const val TAG = "MapsAdapter"
 class MapsAdapter(val context: Context, val userMaps: List<UserMap>, val onClickListener: OnClickListener) : RecyclerView.Adapter<MapsAdapter.ViewHolder>() {
